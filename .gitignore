@@ -13,7 +13,7 @@ migrate_working_dir/
 # IntelliJ related
 *.iml
 *.ipr
-*.iws
+*.iwshttps://github.com/eclipsedd/counter-flutter.git
 .idea/
 
 # The .vscode folder contains launch configuration and tasks you configure in
