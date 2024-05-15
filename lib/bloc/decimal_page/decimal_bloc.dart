@@ -27,12 +27,10 @@ class DecimalBloc extends Bloc<DecimalEvent, DecimalState> {
     yield CounterUpdates(counter);
     }
 
-
+ 
   }
 
-  // FutureOr<void>incrementFunction(){
-  //   counter++;
-  // }
+
 }
 
 

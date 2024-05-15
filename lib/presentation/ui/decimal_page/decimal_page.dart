@@ -39,7 +39,7 @@ class DecimalPageState extends State<DecimalPage> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               FloatingActionButton(
-                onPressed: (){BlocProvider.of<DecimalBloc>(context).add(IncrementEvent());},
+                onPressed: (){BlocProvider.of<DecimalBloc>(context).add(DecrementEvent());},
                 tooltip: 'Decrement',
                 child: const Icon(Icons.remove),
               ),

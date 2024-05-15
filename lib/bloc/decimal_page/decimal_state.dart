@@ -9,6 +9,6 @@ final class DecimalInitial extends DecimalState {}
 final class CounterInitial extends DecimalState{}
 final class CounterUpdates extends DecimalState{
   final int counter;
-  CounterUpdates(this.counter);
+  CounterUpdates(this.counter); 
 }
 
